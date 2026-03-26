@@ -119,3 +119,36 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Live Project Links */
+.project-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #00f0ff;
+  text-decoration: none;
+  border: 1px solid #00f0ff;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #00f0ff;
+  color: #0d0e15;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.6);
+} 
+
+/* Email Text Styling */
+.email-text {
+  color: #a0aec0;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.email-text strong {
+  color: #00f0ff; /* Matches your neon theme */
+}

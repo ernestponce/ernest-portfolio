@@ -12,8 +12,12 @@ function App() {
         <h1 className="neon-text">ERNEST QUIBIN PONCE</h1>
         <h3 className="sub-title">Computer Engineering Student | T.I.P. Manila</h3>
         
+        {/* Emails enlisted as plain text */}
+        <p className="email-text">
+          <strong>Email:</strong> meponce@tip.edu.ph | eqponce23@gmail.com
+        </p>
+        
         <div className="contact-links">
-          <a href="mailto:meponce@tip.edu.ph">Email</a>
           <a href="https://www.linkedin.com/in/ernest-ponce-980661399/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://github.com/ernestponce" target="_blank" rel="noreferrer">GitHub</a>
         </div>
@@ -40,24 +44,30 @@ function App() {
         <section className="card">
           <h2>Featured Projects</h2>
           <div className="project-grid">
+            
             <div className="project-item">
-              <h3>Crypto-Pulse Dashboard</h3>
+              <h3>Crypto Pulse Dashboard</h3>
               <p>High-performance React app for real-time cryptocurrency data visualization utilizing Context API and Custom Hooks.</p>
+              <a href="https://crypto-pulse-lab4.vercel.app/" target="_blank" rel="noreferrer" className="project-link">View Live App</a>
             </div>
-            <div className="project-item">
-              <h3>Project Gatekeeper</h3>
-              <p>Interactive login portal focusing on secure authentication flows, complex state management, and modern UI.</p>
-            </div>
+
             <div className="project-item">
               <h3>Enrollment UI Portal</h3>
               <p>Responsive student enrollment interface built with CSS Grid and React state-driven form handling.</p>
+              <a href="https://ponce-enrollment-ui-design.netlify.app/" target="_blank" rel="noreferrer" className="project-link">View Live App</a>
             </div>
-            <div className="project-item">
-              <h3>Interactive Python Game</h3>
-              <p>Fully functional game built from scratch utilizing object-oriented programming, custom event handling, and logic.</p>
-            </div>
+
           </div>
         </section>
+
+        <section className="card">
+          <h2>Other Previous Projects</h2>
+          <ul>
+            <li><strong>Project Gatekeeper (Login Portal):</strong> Locally developed project featuring a secure React authentication flow, complex state management, and modern UI.</li>
+            <li><strong>Interactive Python Game:</strong> Fully functional game built from scratch utilizing object-oriented programming, custom event handling, and logic.</li>
+          </ul>
+        </section>
+
       </main>
     </div>
   );
