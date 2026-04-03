@@ -7,7 +7,7 @@ function App() {
       <header className="hero-section">
         <div className="profile-square">
           {/* Ensure your photo is named profile.jpg and placed inside the 'public' folder */}
-          <img src="/profile.jpg" alt="Ernest Quibin Ponce" />
+          <img src="/profile.JPG" alt="Ernest Quibin Ponce" />
         </div>
         
         <h1 className="neon-text">ERNEST QUIBIN PONCE</h1>
